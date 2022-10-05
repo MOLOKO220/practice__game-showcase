@@ -1,0 +1,26 @@
+.GameItem {
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background: gray;
+  border-radius: 20px;
+  padding: 20px 0;
+  h6 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
+  > img {
+    height: 100px;
+    max-width: 180px;
+  }
+  > div {
+    > span {
+      color: white;
+    }
+  }
+}
